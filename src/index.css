@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#maindiv{
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      background-color: lightcoral;
+    }
+    #maindiv{
+        width: 80vw;
+    }
+
+  }
+
+  @media screen and (max-width: 470px) {
+    #copy{
+        font-size: 10px;
+    }
+  }
